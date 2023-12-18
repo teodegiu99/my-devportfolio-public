@@ -1,0 +1,48 @@
+.inputbox{
+    background: rgb(17, 17, 17);
+    color: rgb(10, 255, 157);
+	font-size: var(--text-sm);
+    width: 100%;
+    padding: 10px;
+    border-color: rgb(35, 35, 35);
+    border-style: solid;
+    border-width: 2px;
+    color:rgb(235, 236, 243);
+    border-radius: 4px;
+
+}
+
+.inputbox:hover {
+    // background: rgb(35, 35, 35);
+    border-color: rgb(10, 255, 157);
+}
+
+.inputbox:focus {
+    // background: rgb(35, 35, 35);
+    border-color: rgb(10, 255, 157);
+}
+
+
+// .inputbox:hover ~ .label {
+//     color: rgb(10, 255, 157);
+// }
+
+.textlabel1{
+    padding-bottom: 0.5rem;
+    color:rgb(235, 236, 243);
+}
+
+.textlabel2{
+    margin-top: 2rem !important;
+    padding-bottom: 0.5rem;
+    color:rgb(235, 236, 243);
+}
+
+.btn {
+    margin-top: 3rem !important;
+
+}
+
+.textarea {
+    min-height: 12rem;
+}

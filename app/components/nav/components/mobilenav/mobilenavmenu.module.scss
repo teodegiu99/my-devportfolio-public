@@ -1,0 +1,50 @@
+.open {
+  display: flex !important;
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  justify-content: flex-start !important;
+  align-items: flex-end !important;
+  width: 100% !important;
+  height: 100vh !important;
+  background-color: rgb(17, 17, 17)!important;
+  text-align: left !important;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  &::-webkit-scrollbar {
+    width: 0.5em;
+
+    &::-webkit-scrollbar-thumb {
+        background-color: transparent;
+    }
+
+    &::-webkit-scrollbar-track {
+        background-color: transparent;
+    }
+}
+}
+
+.closed {
+  display: none !important;
+  position: fixed !important;
+}
+
+.linkList {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem; /* Equivalente a gap-4 in Tailwind CSS */
+  position: relative;
+  bottom: 8rem; /* Equivalente a bottom-8 in Tailwind CSS */
+  left: 2rem; /* Equivalente a left-8 in Tailwind CSS */
+  font-size: 5.875rem;
+}
+.linkList:hover{
+color: rgb(10, 255, 157);
+}
+
+.button {
+  z-index: 10 !important;
+  display: block !important;
+}

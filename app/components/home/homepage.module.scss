@@ -1,0 +1,12 @@
+@media (min-width: 768px) {
+.homepage {
+	display: grid;
+	grid-template-columns: 60px 1fr;
+  }
+}
+
+@media (max-width: 767px) {
+	.homepage {
+		padding: 1px;
+	  }
+	}
